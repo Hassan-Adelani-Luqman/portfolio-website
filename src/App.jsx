@@ -12,6 +12,7 @@ import profileImage2 from '@/assets/profile-fetcher-react.png'
 import warGameImage from '@/assets/war-game.png'
 import urlShortnerImage from '@/assets/url-shortner.png'
 import myImg from '@/assets/myImg.jpg'
+import storyWeaverImage from '@/assets/story-weaver.jpg'
 import './App.css'
 
 function App() {
@@ -95,6 +96,16 @@ function App() {
       liveDemo: "https://url-shortner-flax-delta.vercel.app/",
       github: "https://github.com/Hassan-Adelani-Luqman/url-shortner",
       details: "A modern, full-featured URL shortener web app. Shorten long links, customize your short URLs"
+    },
+    {
+      id: 7,
+      title: "Story weaver bot",
+      description: "Story Weaver Bot is a web application that generates creative short stories based on user prompts and selected moods (such as fantasy, sci-fi, mystery, adventure, or romance). Powered by Google Gemini AI, the app crafts engaging narratives and suggests story titles, while also fetching relevant images from Unsplash to visually enhance each story",
+      technologies: ["HTML (Jinja2 templates)", "CSS", "JavaScript", "Python", "Flask", "Google Gemini AI", "Unsplash API"],
+      image: storyWeaverImage,
+      liveDemo: "https://hassanadelani1.pythonanywhere.com/",
+      github: "https://github.com/Hassan-Adelani-Luqman/story-weaver-bot",
+      details: "Story Weaver Bot is a web application that generates creative short stories based on user prompts and selected moods (such as fantasy, sci-fi, mystery, adventure, or romance). Powered by Google Gemini AI, the app crafts engaging narratives and suggests story titles, while also fetching relevant images from Unsplash to visually enhance each story"
     }
   ]
 
