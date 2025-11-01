@@ -110,8 +110,8 @@ function App() {
   ]
 
   const skills = {
-    "Languages": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript"],
-    "Frameworks/Libraries": ["React"],
+    "Languages": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "Node JS", "Python"],
+    "Frameworks/Libraries": ["React", "Express"],
     "Styling": ["Tailwind CSS", "Sass/SCSS", "Styled Components", "CSS Grid/Flexbox"],
     "Tools & Others": ["Git/GitHub", "Vite", "npm/Yarn", "REST APIs", "Responsive Design"]
   }
@@ -167,7 +167,7 @@ function App() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground">
               Hassan Adelani
               <br />
-              <span className="text-xl sm:text-2xl text-muted-foreground">Frontend Developer</span>
+              <span className="text-xl sm:text-2xl text-muted-foreground">Software Developer</span>
             </h1>
             <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl mx-auto">
               Building seamless web experiences with a focus on user-centric design and modern technologies
